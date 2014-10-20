@@ -10,3 +10,19 @@ body {
 
 */
 
+h1 {background-color: blue;
+color: white;
+ }
+
+.tablemore {
+text-align: right;
+padding-top:0px;
+padding-right: 10px
+}
+
+.panel_1 {
+
+  border: blue thin solid;
+  border-radius: 5px;
+}
+

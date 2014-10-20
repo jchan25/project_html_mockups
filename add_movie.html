@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Application: Add Movie</title>
+
+  <!-- Adds Bootswatch CSS  -->
+  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/paper/bootstrap.min.css">
+
+  <!-- Adds Font Awesome -->
+  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+  <!-- Adds your custom styles -->
+
+  <link rel="stylesheet" type="text/css" href="my_styles.css">
+
+  <!-- Adds Bootstrap Javascript -->
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Movie Social</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      <li class="active"><a href="home_page.html">Home</a></li>
+        <li class="active"><a href="my_account.html">My Account </a></li>
+        <li class="active"><a href="my_friends.html">My Friends</a></li>
+</nav>
+
+
+  <div class="container">
+
+
+<h2> Add a new movie to watch: </h2>
+<br>
+
+
+
+<form role="form">
+
+  <div class="form-group">
+    <label for="input_movie_name">Movie Name</label>
+    <input type="text" class="form-control" id="Movie Name" placeholder="Enter movie name">
+  </div>
+
+  <div class="form-group">
+    <label for="input_releasedate">Date in Theaters</label>
+    <input type="date" class="form-control" id="input_releasedate" placeholder="Release Date">
+  </div>
+
+<div class="form-group">
+    <label for="input_synopsis">Synopsis</label>
+    <textarea class="form-control" rows="3" placeholder="Description"></textarea>
+  </div>
+
+<div class="form-group">
+    <label for="input_genre">Genre</label>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Action
+            </label>
+          </div>
+
+          <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+                  Comedy
+                  </label>
+                </div>
+
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+                  Drama
+                  </label>
+                </div>
+
+
+  <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+                  Romance
+                  </label>
+                </div>
+
+
+  <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+                  Si-fi
+                  </label>
+                </div>
+
+  <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+                  Documentary
+                  </label>
+                </div>
+
+
+
+  </div>
+
+<div class="form-group">
+    <label for="input_director">Director</label>
+    <input type="text" class="form-control" id="input_director" placeholder="Director Name">
+  </div>
+
+<div class="form-group">
+    <label for="input_actor/actress">Actor/actress</label>
+    <input type="text" class="form-control" id="input_actor/actress" placeholder="Actor/actress 1">
+    <input type="text" class="form-control" id="input_actor/actress" placeholder="Actor/actress 2">
+    <input type="text" class="form-control" id="input_actor/actress" placeholder="Actor/actress 3">
+    <input type="text" class="form-control" id="input_actor/actress" placeholder="Actor/actress 4">
+  </div>
+
+<div class="form-group">
+    <label for="exampleInputFile">Upload movie image</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Upload movie image.</p>
+  </div>
+
+  <button type="submit" class="btn btn-default">Add Movie</button>
+</form>
+
+
+
+
+
+
+
+
+  </div>
+</body>
+</html>
